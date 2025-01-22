@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page Section -->
+    <header id="landing-header" class="bg-dark text-danger text-center py-5">
+        <div class="container">
+            <h1 id="title" class="display-4">BONESS ART</h1>
+            <p class="lead">Portifolio de Arte</p>
+            <a href="#portfolio" class="btn btn-danger btn-lg mt-3">Conheça Meu Trabalho</a>
+        </div>
+    </header>
+
+    <!-- Artes-->
+    <div id="portfolio" class="container py-5">
+        <h2 class="text-center mb-4">ARTES</h2>
+        <div class="row gallery">
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d1.png" class="img-fluid" alt="1" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d1.png">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d2.png" class="img-fluid" alt="2" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d2.png">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d3.png" class="img-fluid" alt="3" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d3.png">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d4.png" class="img-fluid" alt="4" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d4.png">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d5.png" class="img-fluid" alt="5" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d5.png">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="imgs/d6.png" class="img-fluid" alt="6" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="imgs/d6.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" class="modal-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+       
+    <!-- Link Página de Contato -->
+    <div id="contact-link" class="container text-center py-5">
+        <a href="contato.html" class="btn btn-outline-primary btn-lg">Entre em Contato</a>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; Boness Art.</p>
+        <p>Redes Sociais: <a href="#" class="text-white">Instagram</a> | <a href="#" class="text-white">Twitter</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
